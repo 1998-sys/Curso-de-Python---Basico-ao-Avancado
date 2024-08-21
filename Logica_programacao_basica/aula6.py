@@ -12,4 +12,4 @@ print('a' + 'b')
 # Conversão = coerção
 print(int('1') + 1)
 print(type(float('1')+1))
-print(bool('a'))
+print(bool('a')) # convertendo o caractere a para booleano
