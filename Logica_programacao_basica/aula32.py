@@ -20,7 +20,7 @@ Faça um programa que pergunte a hora ao usuário e, baseando-se no horário des
 Bom dia 0-11, boa tarde 12 - 17 e boa noite 18-23
 
 """
-hora = input('informe a hora: ')
+hora = input('informe a horae em número inteiro: ')
 
 try:
     hora_int = int(hora)
