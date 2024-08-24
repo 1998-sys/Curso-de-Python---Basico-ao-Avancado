@@ -20,7 +20,7 @@ Faça um programa que pergunte a hora ao usuário e, baseando-se no horário des
 Bom dia 0-11, boa tarde 12 - 17 e boa noite 18-23
 
 """
-hora = input('informe a horae em número inteiro: ')
+hora = input('informe a hora em número inteiro: ')
 
 try:
     hora_int = int(hora)
@@ -28,8 +28,10 @@ try:
         print(f'{hora_int}, Bom dia')
     elif 12 <= hora_int <= 17:
         print(f'{hora_int}, Boa Tarde')
-    else:
+    elif 18 <= hora_int <=23:
         print(f'{hora_int}, Boa noite')
+    else:
+        print('Não conheço essa hora')
 except:
     print('Formato Inválido')
 
