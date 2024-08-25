@@ -1,4 +1,8 @@
-"""while/else"""
+"""while/else
+
+- se nãom houverem breaks antes sempre será executado
+
+"""
 
 string = 'Valor qualquer'
 
@@ -9,7 +13,7 @@ while i < len(string):
 
     print(letra)
     i+=1
-    break
+    
 
 else:
     print('O else foi executado')
