@@ -21,3 +21,6 @@ print(r"Luiz \"Otávio\"")
 
 # Ou mais simples ainda 
 print('Matheus "Bandeira"')
+
+frase = 'Teste de print'
+print(f'o tipo da variável é {type(frase)}')
