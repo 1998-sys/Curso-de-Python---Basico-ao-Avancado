@@ -4,6 +4,7 @@
 # not False = True
 
 senha = input('Senha: ')
+print(senha)
 
 if not senha:
     print('Você não digitou nada')
