@@ -23,3 +23,5 @@ print(0)
 
 print(f'11 é da classe {type(11)}')
 print(type(11.5))
+
+# Na programação utilizaremos . (ponto) para separar as casas decimais de um número
