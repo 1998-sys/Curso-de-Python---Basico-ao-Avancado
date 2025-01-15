@@ -11,3 +11,4 @@ qtd_latas = litros // 18
 
 print(f'Para pintar uma área de {area} metros quadrados serão necessárias {qtd_latas} latas\n' 
       f'O preço todal é R${qtd_latas*80.:2f}')
+
