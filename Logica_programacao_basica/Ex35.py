@@ -8,18 +8,42 @@ Observando os termos no plural a colocação do "e", da vírgula entre outros. E
 
 """
 
-valor = input('Informe o valor: ')
+# valor = input('Informe o valor: ')
 
-if valor.isdigit():
-    print(f'{valor} é número')
-    inteiro = int(valor)
-    centenas = inteiro // 100
-    print(f'{centenas}')
-    dezenenas = (inteiro % 100) // 10
-    print(f'{dezenenas}')
-    unidade = inteiro % 10
-    print(unidade)
-else:
-    print(f'Valor não é número')
+# if valor.isdigit():
+    # print(f'{valor} é número')
+    # inteiro = int(valor)
+    # centenas = inteiro // 100
+    # print(f'{centenas}')
+    # dezenenas = (inteiro % 100) // 10
+    # print(f'{dezenenas}')
+    # unidade = inteiro % 10
+    # print(unidade)
+# else:
+    # print(f'Valor não é número')
 
-    
+
+"""
+Introdução ao try/except
+
+try -> tentar executar o código
+except -> ocorreu algum erro ao tentar executar
+
+"""
+
+numero_str = input('Vou dobrar o número que você digitar:')
+
+# if numero_str.isdigit():
+#     numero_float = float(numero_str)
+#     print(f'O dobro de {numero_float} é {numero_float * 2:.2f}')
+# else:
+#     print('Isso não é um número')
+
+try:
+    print('STR: ', numero_str)
+    numero_float = float(numero_str)
+    print('FLOAT: ', numero_float)
+    print(f'O dobro de {numero_str} é {numero_float * 2:.2f}')
+
+except:
+    print('Isso não é um número')
