@@ -8,5 +8,5 @@ lista.append('João')
 # print(next(lista_enumerada))
 # print(next(lista_enumerada))
 
-for index, item in enumerate(lista, start=19):
+for index, item in enumerate(lista, start=19): # tem como definir o start do enumerate
     print(index, item)
