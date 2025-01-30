@@ -47,4 +47,4 @@ def mostro_argumentos_nomeados(*args,**kwargs):
 
 
 #mostro_argumentos_nomeados(5,9,10,nome='Joana', qlq = 123)
-mostro_argumentos_nomeados(**pessoa_completa)
+mostro_argumentos_nomeados(pessoa_completa)
