@@ -12,6 +12,7 @@ print(x, y, resto)
 
 def soma (*args):
     total = 0
+    print(args)
     for numero in args:
         total += numero
     return total    
